@@ -8,3 +8,5 @@
 IBM Webpages
 - https://www.research.ibm.com/tjbot
 - [Activities: TJBot](https://www.ibm.org/activities/tjbot)
+
+[MyBlueMix Online Simulator](https://my-tjbot.mybluemix.net)

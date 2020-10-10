@@ -12,9 +12,10 @@ IBM Webpages
 [MyBlueMix Online Simulator](https://my-tjbot.mybluemix.net)
 
 Video Demos
+- [Assembly: Calling all Makers: Meet TJ Bot!](https://www.youtube.com/watch?v=k928MQmD0oc)
 - [Use Your Voice to Control a Light with Watson -- IBM TJBot](https://www.youtube.com/watch?v=Wvnh7ie3D6o)
 
 [Get Tokens for IBM Watson Services](https://cloud.ibm.com/docs/watson?topic=watson-gs-tokens-watson-tokens)
 
 Hardware assembly
-- [Body cover by 3D printer (Note: for PI3 only)](https://www.instructables.com/id/Build-a-3D-Printed-TJBot)
+- [Body cover by 3D printer (Note: for Pi 3 only)](https://www.instructables.com/id/Build-a-3D-Printed-TJBot)

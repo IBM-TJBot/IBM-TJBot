@@ -20,3 +20,6 @@ echo $(npm --version)
 # assuming TJBot repo has been cloned to ~/Desktop/tjbot
 rm -rf node_modules
 npm install ~/Desktop/tjbot/bootstrap/tests
+
+# test hardware
+sudo ~/Desktop/tjbot/bootstrap/runTests.sh 

@@ -2,3 +2,6 @@
 
 
 sudo apt update
+
+# assuming TJBot repo has been cloned to ~/Desktop/tjbot
+npm install ~/Desktop/tjbot/bootstrap/tests

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 
-sudo apt update
+curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -

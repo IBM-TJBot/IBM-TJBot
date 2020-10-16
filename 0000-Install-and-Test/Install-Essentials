@@ -4,7 +4,7 @@
 STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME=IBM-TJBot
 
 
-sudo apt install --yes build-essential git vim
+sudo apt install --yes build-essential git pigpio vim
 
 
 cd ~

@@ -4,11 +4,3 @@
 # install Node.JS 10.x & NPM 6.x BEFORE this Bootstrap script
 # DON'T run hardware tests at this time
 curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -
-
-# install hardware dependencies
-# assuming TJBot repo has been cloned to ~/Desktop/tjbot
-sudo apt install --yes pigpio
-npm install ~/Desktop/tjbot/bootstrap/tests
-
-# test hardware components
-sudo ~/Desktop/tjbot/bootstrap/runTests.sh

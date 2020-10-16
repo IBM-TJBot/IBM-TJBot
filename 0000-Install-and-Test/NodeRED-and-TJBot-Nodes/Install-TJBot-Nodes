@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+
+NODE_RED_CONTRIB_TJBOT_REPO_NAME=node-red-contrib-tjbot
+
+
+cd ~/.node-red
+mkdir -p nodes
+cd nodes
+
+if [ -d $NODE_RED_CONTRIB_TJBOT_REPO_NAME ]; then
+  cd $NODE_RED_CONTRIB_TJBOT_REPO_NAME
+  git pull
+else
+  git clone https://github.com/jeancarl/node-red-contrib-tjbot/$NODE_RED_CONTRIB_TJBOT_REPO_NAME $NODE_RED_CONTRIB_TJBOT_REPO_NAME
+  cd $NODE_RED_CONTRIB_TJBOT_REPO_NAME
+fi
+
+npm install

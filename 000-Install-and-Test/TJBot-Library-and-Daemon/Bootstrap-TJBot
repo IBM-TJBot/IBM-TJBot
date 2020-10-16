@@ -10,12 +10,22 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo bash
 sudo apt install nodejs npm --yes
 
 # upgrade NPM to 6.14.8
-sudo npm i npm@latest -g
+sudo npm install npm@latest -g
 # remove old copy of NPM
 sudo rm /usr/bin/npm
 # verify NPM
 echo $(which -a npm)
 echo $(npm --version)
+
+# force Node to 10.x
+rm /usr/local/bin/node
+# verify NPM
+echo $(which -a node)
+echo $(node --version)
+
+# verify NPM
+echo $(which -a nodejs)
+echo $(nodejs --version)
 
 # install hardware dependencies
 # assuming TJBot repo has been cloned to ~/Desktop/tjbot

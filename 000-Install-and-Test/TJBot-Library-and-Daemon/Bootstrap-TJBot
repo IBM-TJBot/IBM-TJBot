@@ -18,7 +18,7 @@ echo $(npm --version)
 
 # install hardware dependencies
 # assuming TJBot repo has been cloned to ~/Desktop/tjbot
-sudo apt install pigpio --yes
+sudo apt install --yes pigpio
 npm install ~/Desktop/tjbot/bootstrap/tests
 
 # test hardware

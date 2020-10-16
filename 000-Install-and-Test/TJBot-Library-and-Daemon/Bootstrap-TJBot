@@ -5,8 +5,9 @@
 # DON'T run hardware tests at this time
 curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -
 
-# install Node.JS & NPM
-sudo apt install nodejs npm
+# install Node.JS 10.x & NPM
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash
+sudo apt install nodejs npm --yes
 
 # upgrade NPM to 6.14.8
 sudo npm i npm@latest -g

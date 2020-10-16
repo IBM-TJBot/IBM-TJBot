@@ -20,6 +20,8 @@
 
 `TJBot-Library-and-Daemon/Bootstrap-TJBot`
 
+(Reboot after 1st run)
+
 
 ## 4. Install TJBot Daemon
 

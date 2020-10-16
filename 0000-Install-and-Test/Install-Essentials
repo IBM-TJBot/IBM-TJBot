@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+sudo apt install --yes build-essential git
+
+cd ~
+mkdir Repos
+cd Repos
+git clone https://GitHub.com/STEAMforVietNam/IBM-TJBot

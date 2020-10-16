@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+
+sudo systemctl enable nodered.service
+
+
+cd ~/.node-red
+mkdir nodes
+cd nodes
+git clone https://github.com/jeancarl/node-red-contrib-tjbot
+npm install node-red-contrib-tjbot

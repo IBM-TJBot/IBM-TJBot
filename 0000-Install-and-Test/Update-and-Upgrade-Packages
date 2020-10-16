@@ -3,8 +3,6 @@
 
 sudo apt update
 
-sudo apt dist-upgrade --yes
+sudo apt dist-upgrade
 
-sudo apt install --yes \
-    build-essential git \
-    nodejs npm
+sudo apt install --yes build-essential git

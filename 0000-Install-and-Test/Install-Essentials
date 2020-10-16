@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 
 
-sudo apt update
-
-sudo apt dist-upgrade --yes
-
 sudo apt install --yes build-essential git

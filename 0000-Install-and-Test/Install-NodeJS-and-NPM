@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+
+sudo apt install --yes nodejs npm
+
+# upgrade NPM to 6.14.8
+sudo npm install npm@latest -g
+# remove old copy of NPM
+sudo apt remove --yes npm
+# *** FIRST TIME: REBOOT  ***
+# verify NPM
+echo $(which -a npm)
+echo $(npm --version)
+
+# install Node.JS 10.x & NPM
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash
+sudo apt install --yes nodejs

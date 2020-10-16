@@ -3,6 +3,6 @@
 
 sudo apt update
 
-sudo apt dist-upgrade
+sudo apt dist-upgrade --yes
 
 sudo apt install --yes build-essential git

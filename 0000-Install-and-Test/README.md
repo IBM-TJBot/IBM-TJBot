@@ -20,6 +20,9 @@
 
 `NodeRED-and-TJBot-Nodes/Install-TJBot-Nodes`
 
+## 2b. Test TJBot nodes
+
+`NodeRED-and-TJBot-Nodes/TestSuite`
 
 ## 3. Bootstrap TJBot
 

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+# install hardware dependencies
+# assuming TJBot repo has been cloned to ~/Desktop/tjbot
+npm install ~/Desktop/tjbot/bootstrap/tests
+
+# test hardware components
+sudo ~/Desktop/tjbot/bootstrap/runTests.sh

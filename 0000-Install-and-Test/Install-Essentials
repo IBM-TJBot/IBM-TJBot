@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+
+STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME=IBM-TJBot
+
+
+sudo apt install --yes build-essential git pigpio vim
+
+
+cd ~
+mkdir -p Repos
+cd Repos
+if [ -d $STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME ]; then
+  cd $STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME/0000-Install-and-Test
+  git pull
+else
+  git clone https://GitHub.com/STEAMforVietNam/$STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME $STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME
+  cd $STEAM_FOR_VIETNAM_IBM_TJBOT_REPO_NAME/0000-Install-and-Test
+fi

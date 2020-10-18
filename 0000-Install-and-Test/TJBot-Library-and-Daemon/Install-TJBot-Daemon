@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+
+curl -sL http://ibm.biz/tjbot-daemon | sudo sh -

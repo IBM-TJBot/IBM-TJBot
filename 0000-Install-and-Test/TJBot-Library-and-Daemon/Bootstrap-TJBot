@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+# install Node.JS 10.x & NPM 6.x BEFORE this Bootstrap script
+# DON'T run hardware tests at this time
+curl -sL http://ibm.biz/tjbot-bootstrap | sudo sh -

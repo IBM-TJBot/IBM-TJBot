@@ -1,0 +1,1 @@
+[{"id":"caf6587c.21b0e8","type":"inject","z":"b57f48a8.3a00c8","name":"Shine red","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":true,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":270,"y":160,"wires":[["e8b7a566.2b6ff8"]]}]

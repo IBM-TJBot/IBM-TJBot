@@ -1,0 +1,1 @@
+[{"id":"366976f3.4e44da","type":"inject","z":"73e3986e.c2b8e8","name":"Bored","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":true,"onceDelay":"2","topic":"","payload":"My life is so bored after summer bootcamp end","payloadType":"str","x":110,"y":280,"wires":[["2e4b18ff.fd6358"]]}]

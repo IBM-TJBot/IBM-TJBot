@@ -1,0 +1,1 @@
+Yêu cầu đặt thư mục soict_s4v trong thư mục /home/pi/Desktop/

@@ -67,3 +67,15 @@ https://www.youtube.com/watch?v=uE8pvLttipU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuU
 
 More
 https://medium.com/@jeancarlbisson/how-to-train-your-tjbot-in-node-red-88bfb3bbe0ab
+
+==========================================
+Node-RED basic document
+==========================================
+Node-RED Concepts
+https://nodered.org/docs/user-guide/concepts
+
+The Core Nodes
+https://nodered.org/docs/user-guide/nodes
+
+Working with messages
+https://nodered.org/docs/user-guide/messages

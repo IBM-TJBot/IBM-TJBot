@@ -3,6 +3,8 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 if __name__ == "__main__":
+    mail = "tjbotcredential@gmail.com"
+
     f = open("tjbot_simulator_enviroment.txt", "w")
     fields = {
         'watson_assisstant_credentials.env': [

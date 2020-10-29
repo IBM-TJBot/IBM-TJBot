@@ -3,7 +3,7 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 if __name__ == "__main__":
-    mail = "tjbotcredential1@gmail.com"
+    mail = "tjbotcredential3@gmail.com"
 
     f = open("tjbot_simulator_enviroment.txt", "w")
     fields = {

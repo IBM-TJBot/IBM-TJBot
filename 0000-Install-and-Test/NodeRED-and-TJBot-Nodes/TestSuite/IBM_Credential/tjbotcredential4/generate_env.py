@@ -3,8 +3,8 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 if __name__ == "__main__":
-    mail = "steam.tjbot01@gmail.com"
-    password = "TJBot01.steam!"
+    mail = "steam.tjbot02@gmail.com"
+    password = "TJBot02.steam!"
 
     f = open("tjbot_simulator_enviroment.txt", "w")
     fields = {

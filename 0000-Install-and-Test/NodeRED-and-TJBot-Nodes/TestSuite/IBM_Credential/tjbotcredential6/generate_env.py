@@ -3,12 +3,9 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 if __name__ == "__main__":
-    mail = "steam.tjbot01@gmail.com"
-    password = "TJBot01.steam!"
-
     f = open("tjbot_simulator_enviroment.txt", "w")
     fields = {
-        'watson_assisstant_credentials.env': [
+        'watson_assistant_credentials.env': [
             'ASSISTANT_APIKEY',
             'ASSISTANT_URL'
         ],
@@ -65,4 +62,5 @@ if __name__ == "__main__":
             f.write(result_fileds[index] + "=\n")
             index += 1
     
+    print("Success")
     f.close()

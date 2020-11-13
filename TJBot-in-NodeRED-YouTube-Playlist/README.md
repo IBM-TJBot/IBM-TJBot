@@ -24,3 +24,5 @@
 11. [Train TJBot to Analyze Tone in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=11)
 
 12. [Train TJBot to Translate in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=12)
+
+13. [Train TJBot to Converse in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=13)

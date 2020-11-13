@@ -13,4 +13,6 @@
 
 6. [Train TJBot to Shine LED in Node-RED](https://www.youtube.com/watch?v=8htZriltJuc&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=6)
 
-7. [Train TJBot to Pulse LED in Node-RED](https://www.youtube.com/watch?v=8htZriltJuc&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=7)
+7. [Train TJBot to Pulse LED in Node-RED](https://www.youtube.com/watch?v=AkOWGQjlaXk&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=7)
+
+8. [Train TJBot to Listen in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=8)

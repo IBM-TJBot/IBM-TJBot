@@ -1,0 +1,145 @@
+[
+    {
+        "id": "76019e62.784d2",
+        "type": "tab",
+        "label": "Listen",
+        "disabled": false,
+        "info": "https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=8\n"
+    },
+    {
+        "id": "d5911ce7.2dd1e",
+        "type": "inject",
+        "z": "76019e62.784d2",
+        "name": "Start Listening",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "start",
+        "payloadType": "str",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "1fa203b9.30df6c"
+            ]
+        ]
+    },
+    {
+        "id": "95a30496.035d28",
+        "type": "inject",
+        "z": "76019e62.784d2",
+        "name": "Stop Listening",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "1fa203b9.30df6c"
+            ]
+        ]
+    },
+    {
+        "id": "1fa203b9.30df6c",
+        "type": "change",
+        "z": "76019e62.784d2",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "mode",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 100,
+        "wires": [
+            [
+                "3041f0a0.63ed9"
+            ]
+        ]
+    },
+    {
+        "id": "3041f0a0.63ed9",
+        "type": "tjbot-listen",
+        "z": "76019e62.784d2",
+        "botId": "9163b0a8.2029a",
+        "name": "",
+        "x": 580,
+        "y": 120,
+        "wires": [
+            [
+                "27f9b8f7.9b8b98"
+            ]
+        ]
+    },
+    {
+        "id": "27f9b8f7.9b8b98",
+        "type": "debug",
+        "z": "76019e62.784d2",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9163b0a8.2029a",
+        "type": "tjbot-config",
+        "botGender": "female",
+        "name": "TJBot",
+        "listen": "en-US",
+        "speak": "en-US",
+        "hasServo": true,
+        "hasLED": true,
+        "hasSpeaker": true,
+        "hasMicrophone": true,
+        "hasCamera": true,
+        "speakerDeviceId": "plughw:0,0",
+        "microphoneDeviceId": "plughw:1,0",
+        "aUrl": "https://gateway.watsonplatform.net/assistant/api",
+        "taUrl": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "ltUrl": "https://gateway.watsonplatform.net/language-translator/api",
+        "sttUrl": "https://stream.watsonplatform.net/speech-to-text/api",
+        "ttsUrl": "https://stream.watsonplatform.net/text-to-speech/api",
+        "vrUrl": "https://gateway.watsonplatform.net/visual-recognition/api"
+    }
+]

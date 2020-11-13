@@ -1,7 +1,7 @@
 # Open-Source Ecosystem
 
 
-### [IBM TJBot project](https://github.com/ibmtjbot)
+## [IBM TJBot Project](https://github.com/ibmtjbot)
 
 [GitHub IO Website](https://ibmtjbot.github.io)
 
@@ -10,12 +10,12 @@
 [TJBotLib](https://github.com/ibmtjbot/tjbotlib)
 
 
-### [Jean-Carl Bisson](https://github.com/jeancarl)
+## [Jean-Carl Bisson](https://github.com/jeancarl)
 
 [Node-RED Contrib TJBot](https://github.com/jeancarl/node-red-contrib-tjbot)
 
 
-### [Justin Weisz](https://github.com/jweisz)
+## [Justin Weisz](https://github.com/jweisz)
 
 [TJBot Daemon](https://github.com/jweisz/tjbot-daemon)
 

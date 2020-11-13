@@ -28,3 +28,37 @@
 13. [Train TJBot to Converse in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=13)
 
 14. [Train TJBot to Analyze Emotion in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=14)
+
+15. [Train TJBot to Identify Language in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=15)
+
+16. [Train TJBot to Identify Language and Translate in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=16)
+
+17. [Train TJBot to Spell Words in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=17)
+
+18. [Train TJBot to Identify Colors in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=18)
+
+19. [Train TJBot to Identify Objects in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=19)
+
+20. [Train TJBot to Shine with an Intent in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=20)
+
+21. [Train TJBot to Analyze Language Tones in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=21)
+
+22. [Train TJBot to Wave with an Intent in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=22)
+
+23. [Train TJBot to Be a Translator in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=23)
+
+24. [Train TJBot to Suggest a Lunch Spot in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=24)
+
+25. [Train TJBot to Tweet a Photo in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=25)
+
+26. [Train TJBot to Read Direct Messages in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=26)
+
+27. [Train TJBot to Play Sounds in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=27)
+
+28. [Train TJBot to Play Say-the-Color Game in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=28)
+
+29. [Train TJBot to Measure CPU Temperature in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=29)
+
+30. [Train TJBot to Say the Weather Report in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=30)
+
+31. [Train TJBot to Speak Headlines in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=31)

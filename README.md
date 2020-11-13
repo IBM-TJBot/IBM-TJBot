@@ -19,7 +19,3 @@ Video Demos
 
 Hardware assembly
 - [Body cover by 3D printer (Note: for Pi 3 only)](https://www.instructables.com/id/Build-a-3D-Printed-TJBot)
-
-
-[Do The WWW YouTube Channel](https://www.youtube.com/user/dothewww)
-- [TJBot in Node-RED playlist](https://www.youtube.com/playlist?list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV)

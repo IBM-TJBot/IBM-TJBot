@@ -14,6 +14,8 @@
 
 [Node-RED Contrib TJBot](https://github.com/jeancarl/node-red-contrib-tjbot)
 
+[TJBot in Node-RED tutorial videos](https://www.youtube.com/playlist?list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV)
+
 
 ## [Justin Weisz](https://github.com/jweisz)
 

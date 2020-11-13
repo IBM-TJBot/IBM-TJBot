@@ -1,0 +1,95 @@
+[
+    {
+        "id": "9641fac5.7c1348",
+        "type": "tab",
+        "label": "See",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "40f1ea89.0bcfb4",
+        "type": "inject",
+        "z": "9641fac5.7c1348",
+        "name": "See",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "4e6ac17e.66f3d"
+            ]
+        ]
+    },
+    {
+        "id": "4e6ac17e.66f3d",
+        "type": "tjbot-see",
+        "z": "9641fac5.7c1348",
+        "botId": "9163b0a8.2029a",
+        "mode": "see",
+        "verticalFlip": false,
+        "horizontalFlip": false,
+        "width": 960,
+        "height": 720,
+        "name": "",
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "5ba7c01.6f6054"
+            ]
+        ]
+    },
+    {
+        "id": "5ba7c01.6f6054",
+        "type": "debug",
+        "z": "9641fac5.7c1348",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "9163b0a8.2029a",
+        "type": "tjbot-config",
+        "botGender": "female",
+        "name": "TJBot",
+        "listen": "en-US",
+        "speak": "en-US",
+        "hasServo": true,
+        "hasLED": true,
+        "hasSpeaker": true,
+        "hasMicrophone": true,
+        "hasCamera": true,
+        "speakerDeviceId": "plughw:0,0",
+        "microphoneDeviceId": "plughw:1,0",
+        "aUrl": "https://gateway.watsonplatform.net/assistant/api",
+        "taUrl": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "ltUrl": "https://gateway.watsonplatform.net/language-translator/api",
+        "sttUrl": "https://stream.watsonplatform.net/speech-to-text/api",
+        "ttsUrl": "https://stream.watsonplatform.net/text-to-speech/api",
+        "vrUrl": "https://gateway.watsonplatform.net/visual-recognition/api"
+    }
+]

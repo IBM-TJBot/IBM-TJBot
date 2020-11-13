@@ -18,3 +18,5 @@
 8. [Train TJBot to Listen in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=8)
 
 9. [Train TJBot to Speak in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=9)
+
+10. [Train TJBot to See in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=10)

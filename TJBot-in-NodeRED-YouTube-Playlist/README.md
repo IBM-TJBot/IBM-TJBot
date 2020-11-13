@@ -26,3 +26,5 @@
 12. [Train TJBot to Translate in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=12)
 
 13. [Train TJBot to Converse in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=13)
+
+14. [Train TJBot to Analyze Emotion in Node-RED](https://www.youtube.com/watch?v=AFNUa7y5XeU&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=14)

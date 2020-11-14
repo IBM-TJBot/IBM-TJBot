@@ -336,6 +336,35 @@
         ]
     },
     {
+        "id": "7c779699.a17c78",
+        "type": "inject",
+        "z": "42d1b0b.641c65",
+        "name": "\bNgừng Nghe",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "stop",
+        "payloadType": "str",
+        "x": 110,
+        "y": 560,
+        "wires": [
+            [
+                "3ae401c9.881abe"
+            ]
+        ]
+    },
+    {
         "id": "9163b0a8.2029a",
         "type": "tjbot-config",
         "botGender": "female",

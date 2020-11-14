@@ -10,6 +10,12 @@
 [TJBotLib](https://github.com/ibmtjbot/tjbotlib)
 
 
+## [Node-RED]
+
+[YouTube Channel](https://www.youtube.com/channel/UCQaB8NXBEPod7Ab8PPCLLAA)
+- [Node-RED Essentials playlist](https://www.youtube.com/watch?v=ksGeUD26Mw0&list=PLyNBB9VCLmo1hyO-4fIZ08gqFcXBkHy-6)
+
+
 ## [Jean-Carl Bisson](https://github.com/jeancarl)
 
 [Node-RED Contrib TJBot](https://github.com/jeancarl/node-red-contrib-tjbot)

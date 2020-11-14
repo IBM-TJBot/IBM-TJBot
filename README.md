@@ -2,8 +2,7 @@
 
 [Website](https://ibmtjbot.github.io)
 
-[GitHub](https://github.com/ibmtjbot/tjbot)
-- [TJBot Playground](https://github.com/jweisz/tjbot-playground) accessible through [Swift Playgrounds app](https://apps.apple.com/app/id1496833156) on iPad only
+[TJBot Swift Playgrounds app](https://apps.apple.com/app/id1496833156) on iPad only
 
 IBM Webpages
 - https://www.research.ibm.com/tjbot
@@ -19,7 +18,3 @@ Video Demos
 
 Hardware assembly
 - [Body cover by 3D printer (Note: for Pi 3 only)](https://www.instructables.com/id/Build-a-3D-Printed-TJBot)
-
-
-[Do The WWW YouTube Channel](https://www.youtube.com/user/dothewww)
-- [TJBot in Node-RED playlist](https://www.youtube.com/playlist?list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV)

@@ -14,6 +14,10 @@
 
 [Node-RED Contrib TJBot](https://github.com/jeancarl/node-red-contrib-tjbot)
 
+[Node-RED Labs](https://github.com/jeancarl/node-red-labs)
+
+[TJBot Labs](https://github.com/jeancarl/tjbot-labs)
+
 [TJBot in Node-RED tutorial videos](https://www.youtube.com/playlist?list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV)
 
 

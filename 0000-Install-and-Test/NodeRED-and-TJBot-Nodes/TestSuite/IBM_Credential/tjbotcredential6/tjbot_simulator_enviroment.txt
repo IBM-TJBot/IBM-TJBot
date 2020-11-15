@@ -1,0 +1,13 @@
+ASSISTANT_API_KEY=moQRDkk35DpEbMfC7oCYNoTBtEswroXA_IJ8MHrsVa-j
+ASSISTANT_API_ENDPOINT=https://api.us-south.assistant.watson.cloud.ibm.com/instances/0db10944-e373-409e-a46e-8a9681a2e92e
+ASSISTANT_WORKSPACE_ID=
+LANGUAGE_TRANSLATOR_API_KEY=Wvtl-B3S2Qxexv5q5aHLwkuMptZ7_-LrtJdpCXurKOef
+LANGUAGE_TRANSLATOR_API_ENDPOINT=https://api.us-south.language-translator.watson.cloud.ibm.com/instances/ff550728-a4e1-4a47-8d94-d877fdc3b48b
+SPEECH_TO_TEXT_API_KEY=-zaJGo26WLcmWhULMiurd56z5x_Q-ba8l1dPIR_TbCXX
+SPEECH_TO_TEXT_API_ENDPOINT=https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/9c57bcc4-5137-4a37-8762-d979f2dfa5be
+TEXT_TO_SPEECH_API_KEY=YR-4ioX68OJFP4leqDkURGAzFBS3zVLWSlTyqbfxTwnX
+TEXT_TO_SPEECH_API_ENDPOINT=https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/ec0d29a5-0261-43fe-b46f-ce50463cdde8
+TONE_ANALYZER_API_KEY=oAlYZA2qyZVPZjXCgUbm3ov0Oi8fK-xvqYrwx1fcsg9X
+TONE_ANALYZER_API_ENDPOINT=https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/a14d6aaa-35e1-41cf-9e4e-8d98627fc954
+VISUAL_RECOGNITION_API_KEY=JockSSqaopK28LFvKpgLtdDpFizj9kmweT53B499l5AY
+VISUAL_RECOGNITION_API_ENDPOINT=https://api.us-south.visual-recognition.watson.cloud.ibm.com/instances/349c312e-17b6-466e-b803-954eba8de128

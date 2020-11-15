@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1291e2aa.fad1dd",
+        "type": "tab",
+        "label": "Spell Words",
+        "disabled": false,
+        "info": "https://www.youtube.com/watch?v=lBi5O925PNs&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=17\n"
+    },
+    {
+        "id": "47027225.08e0cc",
+        "type": "inject",
+        "z": "1291e2aa.fad1dd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Hello",
+        "payloadType": "str",
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "5aa30d11.b94484"
+            ]
+        ]
+    },
+    {
+        "id": "5aa30d11.b94484",
+        "type": "template",
+        "z": "1291e2aa.fad1dd",
+        "name": "Format with SSML",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "{{payload}}\nis spelled\n<speak>\n    <say-as interpret-as=\"letters\">{{payload}}</say-as>\n</speak>\n",
+        "output": "str",
+        "x": 390,
+        "y": 100,
+        "wires": [
+            [
+                "6d5784e0.1190ec"
+            ]
+        ]
+    },
+    {
+        "id": "6d5784e0.1190ec",
+        "type": "tjbot-speak",
+        "z": "1291e2aa.fad1dd",
+        "botId": "9163b0a8.2029a",
+        "mode": "speak",
+        "payload": "",
+        "name": "",
+        "x": 610,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9163b0a8.2029a",
+        "type": "tjbot-config",
+        "botGender": "female",
+        "name": "TJBot",
+        "listen": "en-US",
+        "speak": "en-US",
+        "hasServo": true,
+        "hasLED": true,
+        "hasSpeaker": true,
+        "hasMicrophone": true,
+        "hasCamera": true,
+        "speakerDeviceId": "plughw:0,0",
+        "microphoneDeviceId": "plughw:1,0",
+        "aUrl": "https://gateway.watsonplatform.net/assistant/api",
+        "taUrl": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "ltUrl": "https://gateway.watsonplatform.net/language-translator/api",
+        "sttUrl": "https://stream.watsonplatform.net/speech-to-text/api",
+        "ttsUrl": "https://stream.watsonplatform.net/text-to-speech/api",
+        "vrUrl": "https://gateway.watsonplatform.net/visual-recognition/api"
+    }
+]

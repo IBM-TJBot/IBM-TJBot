@@ -1,0 +1,93 @@
+[
+    {
+        "id": "81a7b0b8.d5859",
+        "type": "tab",
+        "label": "Translate",
+        "disabled": false,
+        "info": "https://www.youtube.com/watch?v=oIM4dp-mctE&list=PLddOPkVMz1dtN3I_4JKava4GBLLXuUevV&index=12\n"
+    },
+    {
+        "id": "6d0a5603.9b33d8",
+        "type": "inject",
+        "z": "81a7b0b8.d5859",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Tôi là người Việt Nam",
+        "payloadType": "str",
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "750f5a58.b24f34"
+            ]
+        ]
+    },
+    {
+        "id": "750f5a58.b24f34",
+        "type": "tjbot-translate",
+        "z": "81a7b0b8.d5859",
+        "botId": "9163b0a8.2029a",
+        "srcLang": "vi",
+        "targetLang": "en",
+        "mode": "translate",
+        "name": "",
+        "x": 490,
+        "y": 100,
+        "wires": [
+            [
+                "a070fab1.a11bd8"
+            ]
+        ]
+    },
+    {
+        "id": "a070fab1.a11bd8",
+        "type": "debug",
+        "z": "81a7b0b8.d5859",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "response",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "9163b0a8.2029a",
+        "type": "tjbot-config",
+        "botGender": "female",
+        "name": "TJBot",
+        "listen": "en-US",
+        "speak": "en-US",
+        "hasServo": true,
+        "hasLED": true,
+        "hasSpeaker": true,
+        "hasMicrophone": true,
+        "hasCamera": true,
+        "speakerDeviceId": "plughw:0,0",
+        "microphoneDeviceId": "plughw:1,0",
+        "aUrl": "https://gateway.watsonplatform.net/assistant/api",
+        "taUrl": "https://gateway.watsonplatform.net/tone-analyzer/api",
+        "ltUrl": "https://gateway.watsonplatform.net/language-translator/api",
+        "sttUrl": "https://stream.watsonplatform.net/speech-to-text/api",
+        "ttsUrl": "https://stream.watsonplatform.net/text-to-speech/api",
+        "vrUrl": "https://gateway.watsonplatform.net/visual-recognition/api"
+    }
+]

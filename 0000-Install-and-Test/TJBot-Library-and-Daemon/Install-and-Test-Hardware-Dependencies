@@ -4,14 +4,15 @@
 TJBOT_TESTS_DIR_PATH=~/Desktop/tjbot/tests
 
 
+cd $TJBOT_TESTS_DIR_PATH
+
 # install hardware dependencies
 # assuming TJBot repo has been cloned to ~/Desktop/tjbot
-npm install $TJBOT_TESTS_DIR_PATH
-# npm install pigpio
+npm install
 
 # test hardware components
-sudo nodejs $TJBOT_TESTS_DIR_PATH/test.camera.js
-sudo nodejs $TJBOT_TESTS_DIR_PATH/test.led.js
-sudo nodejs $TJBOT_TESTS_DIR_PATH/test.mic.js
-sudo nodejs $TJBOT_TESTS_DIR_PATH/test.servo.js
-sudo nodejs $TJBOT_TESTS_DIR_PATH/test.speaker.js
+sudo nodejs test.camera.js
+sudo nodejs test.led.js
+sudo nodejs test.mic.js
+sudo nodejs test.servo.js
+sudo nodejs test.speaker.js
